@@ -1,0 +1,21 @@
+
+name: github-actions-SQA-Spring2026
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  vv-check-SQA:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Print Demo Message
+        run: echo "Hello from GitHub Actions! I am modifying this file "
