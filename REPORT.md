@@ -1,4 +1,4 @@
-# SQA Spring 2026 — Group Project Report
+# SQA Spring 2026: Group Project Report
 
 ## Team Members
 
